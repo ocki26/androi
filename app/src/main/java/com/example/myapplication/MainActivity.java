@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public static class Demo_activity {
+
+    }
 }
