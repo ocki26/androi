@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Goi 1 day"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/text1"
+
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Xem them"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="#ef233c"
+        android:id="@+id/text2"
+        android:layout_toRightOf="@id/text1"
+        android:gravity="right"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ST7k - 1day"
+        android:padding="10dp"
+        android:layout_below="@id/text1"
+        android:layout_margin="5dp"
+        android:background="#ef233c"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/text3"/>
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp" android:layout_below="@id/text3">
+
+    </RelativeLayout>
+</RelativeLayout>

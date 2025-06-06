@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="bla bla bla bal"
+        android:textStyle="bold"
+        android:id="@+id/tvShoolName"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="text test tet test test test"
+        android:textStyle="bold"
+        android:layout_below="@id/tvShoolName"
+        android:layout_centerInParent="true"
+        android:id="@+id/tvtest"
+        />
+    <ImageView
+        android:src="@drawable/img"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tvtest"
+       android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imglogo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account register"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:layout_below="@id/imglogo"
+        android:layout_centerInParent="true"
+        android:id="@+id/createAccount"
+        />
+
+</RelativeLayout>
