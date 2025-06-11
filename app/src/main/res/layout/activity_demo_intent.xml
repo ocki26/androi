@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter url"
+        android:inputType="textUri"
+        android:autofillHints="false"
+        android:id="@+id/edtURL"
+        android:paddingTop="50dp"
+
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#03A9F4"
+    android:text="load Website"
+    android:id="@+id/btnLoadURL"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        android:hint="enter phone number"
+        android:autofillHints="false"
+        android:id="@+id/edtPhoneNumber"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="Call phone"
+        android:id="@+id/btnCallPhone"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFB60D"
+        android:text="Go to an other activity"
+        android:id="@+id/btnGotoAcitivity"
+        />
+</LinearLayout>
