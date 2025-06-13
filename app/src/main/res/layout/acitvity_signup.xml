@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#a9d6e5"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTec - FPT"
+        android:textSize="20sp"
+        android:textColor="#DC1515"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#caf0f8"
+        android:autofillHints="false"
+        android:inputType="text"
+        android:hint="enter username"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtusename"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="false"
+        android:background="#caf0f8"
+        android:hint="enter password"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:id="@+id/edtpassword"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remeber me"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        android:id="@+id/btnRegister"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have account"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+</LinearLayout>

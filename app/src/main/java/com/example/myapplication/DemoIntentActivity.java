@@ -81,7 +81,7 @@ public class DemoIntentActivity extends AppCompatActivity {
                 Intent intent1 = new Intent(DemoIntentActivity.this,DemoComponentActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("Myurl",url);
-                bundle.putString("myphone",url);
+                bundle.putString("myphone",phone);
                 bundle.putInt("userid",123456789) ;
                 intent1.putExtras(bundle);
                 startActivity(intent1);
