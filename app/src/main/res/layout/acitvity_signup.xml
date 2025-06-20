@@ -35,6 +35,8 @@
         android:id="@+id/edtusename"
         />
 
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -45,6 +47,28 @@
         android:inputType="text"
         android:paddingLeft="5dp"
         android:id="@+id/edtpassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#caf0f8"
+        android:autofillHints="false"
+        android:inputType="textEmailAddress"
+        android:hint="enter email"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtemail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#caf0f8"
+        android:autofillHints="false"
+        android:inputType="phone"
+        android:hint="enter phone number"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtphone"
+        />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -71,6 +95,7 @@
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
         android:textSize="16sp"
+        android:id="@+id/tvlogin"
         />
     <TextView
         android:layout_width="wrap_content"
